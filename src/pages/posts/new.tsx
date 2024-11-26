@@ -1,9 +1,11 @@
-import Header from "../../components/Header";
+import PostForm from "components/PostForm";
+import Header from "components/Header";
 
 function PostNew() {
   return (
     <>
       <Header />
+      <PostForm />
     </>
   );
 }

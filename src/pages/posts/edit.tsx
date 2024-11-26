@@ -1,7 +1,13 @@
-import React from "react";
+import PostForm from "components/PostForm";
+import Header from "components/Header";
 
 function PostEdit() {
-  return <h1>Post Edit Page</h1>;
+  return (
+    <>
+      <Header />
+      <PostForm />
+    </>
+  );
 }
 
 export default PostEdit;
