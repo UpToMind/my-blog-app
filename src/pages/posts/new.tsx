@@ -1,5 +1,11 @@
+import Header from "../../components/Header";
+
 function PostNew() {
-  return <h1>Post New Page</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default PostNew;
